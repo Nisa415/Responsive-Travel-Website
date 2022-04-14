@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Favicon -->
+<link rel="shortcut icon" href="Img/icons8-ocean-64.png" type="image/x-icon">
+
+    <!-- Remix Icons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+
+    <!-- CSS -->
+  <link rel="stylesheet" href="CSS/styles.css">
+    <title>Responsive Travel Website</title>
+</head>
+
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="" class="nav__logo">Travel Away</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#discover" class="nav__link">Explore</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#destinations" class="nav__link">Destinations</a>
+                </li>
+            </ul>
+
+            <div class="nav__dark">
+                <!-- Theme change button -->
+                <span class="change-theme-name">Dark mode</span>
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+
+            <i class="ri-close-line nav__close" id="nav-close"></i>
+
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line "></i>
+        </div>
+    </nav>
+</header>
+
+
+<main class="main">
+
+    <!-- HOME  -->
+    <section class="home" id="home">
+        <img src="Img/karsten-winegeart-ZBUesmAQapY-unsplash.jpg" alt="" class="home__img">
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">
+                    Find your dream getaway
+                </span>
+                <h1 class="home__data-title">
+                    Explore & find <br> the best beaches
+                </h1>
+                <a href="#" class="button">Start</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.facebook.com" target="_blank" class="home__social-link">
+                    <i class="ri-facebook-box-fill"></i> 
+                </a>
+                
+                <a href="https://www.instagram.com" target="_blank" class="home__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                
+                <a href="https://www.twitter.com" target="_blank" class="home__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+            </div>
+
+            <div class="home__info">
+                <div>
+                    <span class="home__info-title">
+                        4 top places to visit
+                    </span>
+                    <a href="#" class="button button--flex button--link home__info-button">
+                        Explore <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__info-overlay">
+                    <img src="Img/home2.jpg" alt="" class="home__info-img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT  -->
+ <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">
+                    Learn more about the  <br> most popular tourist destinations.
+                </h2>
+                <p class="about__description">
+                    Join us for your next expedition. Your adventures await!
+                </p>
+                <a href="#" class="button">Reserve a trip</a>
+            </div>
+
+            <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="img/fiona-smallwood-iUxjs-F0voI-unsplash.jpg" alt="" class="about__img-one">
+                </div>
+
+                <div class="about__img-overlay">
+                    <img src="img/pat-whelen-V9pvEdPJyAw-unsplash.jpg" alt="" class="about__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- DISCOVER  -->
+    <section class="discover section" id="discover">
+        <h2 class="section__title">
+            Our top  <br> picks
+        </h2>
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Discover 1 -->
+                <div class="discover__card swiper-slide">
+                    <img src="Img/bali.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Bali</h2>
+                        <span class="discover__description">
+                            22 tours available. 
+                        </span>
+                    </div>
+                </div>
+
+                 <!-- Discover 2 -->
+                 <div class="discover__card swiper-slide">
+                    <img src="Img/hawaii.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Hawaii</h2>
+                        <span class="discover__description">
+                            11 tours available. 
+                        </span>
+                    </div>
+                </div>
+
+                 <!-- Discover 3 -->
+                 <div class="discover__card swiper-slide">
+                    <img src="Img/maldives.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Maldives</h2>
+                        <span class="discover__description">
+                            19 tours available. 
+                        </span>
+                    </div>
+                </div>
+
+                 <!-- Discover 4 -->
+                 <div class="discover__card swiper-slide">
+                    <img src="Img/borabora.jpg" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Bora Bora</h2>
+                        <span class="discover__description">
+                            31 tours available. 
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- EXPERIENCE  -->
+    <section class="experience section" > 
+        <h2 class="section__title">
+            We have private tour guides and <br> all-inclusive vacation packages. 
+        </h2>
+        <div class="experience__container container grid">
+            <div class="experience__content grid">
+                <div class="experience__data">
+                    <h2 class="experience__number">25</h2>
+                    <span class="experience__description">
+                        Years of <br> Experience 
+                    </span>
+                </div>
+
+                <div class="experience__data">
+                    <h2 class="experience__number">75</h2>
+                    <span class="experience__description">
+                        Complete <br> Tours
+                    </span>
+                </div>
+
+                <div class="experience__data">
+                    <h2 class="experience__number">500+</h2>
+                    <span class="experience__description">
+                        Tourist <br> Destinations
+                    </span>
+                </div>
+            </div>
+            <div class="experience__img grid">
+                <div class="experience__overlay">
+                    <img src="Img/experience1.jpg" alt="" class="experience__img-one">
+                </div>
+                <div class="experience__overlay">
+                    <img src="Img/experience2.jpg" alt="" class="experience__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                    <!-- Video  -->
+<section class="video section">
+    <h2 class="section__title">Live video</h2>
+
+    <div class="video__container container">
+        <p class="video__description">Enjoy a live stream from our favorite place <br> Oahu, Hawaii.
+        </p>
+
+        <div class="video__content">
+            <video id="video-file">
+                <source src="Videos/production ID_4328534.mp4" type="video/mp4">
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+                <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+
+
+         <!-- Destinations -->
+            <section class="destination section" id="destination">
+                <h2 class="section__title">Choose Your Destination</h2>
+
+                <div class="destination__container container grid">
+                <!-- Destination Card 1 -->
+                    <div class="destination__card">
+                        <img src="Img/bali.jpg" alt="" class="destination__img">
+                        
+                        <div class="destination__content">
+                            <span class="destination__rating">
+                                <i class="ri-star-line destination__rating-icon"></i>
+                                <span class="destination__rating-number">4.8</span>
+                            </span>
+
+                            <div class="destination__data">
+                                <h3 class="destination__title">Bali</h3>
+                                <span class="destination__subtitle">Indonesia</span>
+                                <span class="destination__price">$2499</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex destination__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                     <!-- Destination Card 2 -->
+                    <div class="destination__card">
+                        <img src="Img/hawaii.jpg" alt="" class="destination__img">
+                        
+                        <div class="destination__content">
+                            <span class="destination__rating">
+                                <i class="ri-star-line destination__rating-icon"></i>
+                                <span class="destination__rating-number">5.0</span>
+                            </span>
+
+                            <div class="destination__data">
+                                <h3 class="destination__title">Oahu</h3>
+                                <span class="destination__subtitle">Hawaii</span>
+                                <span class="destination__price">$1599</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex destination__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                      <!-- Destination Card 3 -->
+                    <div class="destination__card">
+                        <img src="Img/borabora.jpg" alt="" class="destination__img">
+                        
+                        <div class="destination__content">
+                            <span class="destination__rating">
+                                <i class="ri-star-line destination__rating-icon"></i>
+                                <span class="destination__rating-number">4.9</span>
+                            </span>
+
+                            <div class="destination__data">
+                                <h3 class="destination__title">Bora Bora</h3>
+                                <span class="destination__subtitle">French Polynesia</span>
+                                <span class="destination__price">$3499</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex destination__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!-- Destination Card 4 -->
+                    <div class="destination__card">
+                        <img src="Img/maldives.jpg" alt="" class="destination__img">
+                        
+                        <div class="destination__content">
+                            <span class="destination__rating">
+                                <i class="ri-star-line destination__rating-icon"></i>
+                                <span class="destination__rating-number">4.8</span>
+                            </span>
+
+                            <div class="destination__data">
+                                <h3 class="destination__title">Maldives</h3>
+                                <span class="destination__subtitle">South Asia</span>
+                                <span class="destination__price">$2099</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex destination__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                     
+                </div>
+            </section>
+
+
+
+
+
+<!-- Follow Us -->
+
+<section class="follow section">
+<div class="follow__bg">
+    <div class="follow__container container">
+        <h2 class="section__title follow__title">
+            Sign up for discounts
+        </h2>
+        <p class="follow__description">
+            Discounts, birthday specials <br> and much more
+        </p>
+        <form action="
+    " class="follow__form"><input type="text" placeholder="Enter email" class="follow__input">
+        <button class="button">Follow</button>
+</form>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+</main>
+
+
+<!-- Footer -->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content grid">
+            <div class="footer__data">
+                <h3 class="footer__title">Travel</h3>
+                <p class="footer__description">Customer satisfaction is  <br>  our top priority.</p>
+                <div>
+                  <a href="https://www.facebook.com" target="_blank" class="footer__social">
+                    <i class="ri-facebook-box-fill"></i>
+                  </a>  
+                  <a href="https://www.twitter.com" target="_blank" class="footer__social">
+                    <i class="ri-twitter-fill"></i> 
+                </a>  
+                <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                    <i class="ri-instagram-fill"></i>   
+                </a>  
+                <a href="https://www.youtube.com" target="_blank" class="footer__social">
+                    <i class="ri-youtube-fill"></i>
+                </a>  
+                </div>
+            </div>
+
+            <div class="footer__data">
+                <h3 class="footer__subtitle">About</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Directions</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Live Weather</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Get Started</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">All-inclusive Packages</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Pricing List</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Premium membership</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Support</h3>
+                <ul>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">FAQs</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Live Chat</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer__rights">
+            <p class="footer__copy">
+                &#169; 2022 Nisa Farhana. All rights reserved.
+            </p>
+            <div class="footer__terms">
+                <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                <a href="#" class="footer__terms-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll Up -->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line scrollup__icon"></i>
+</a>
+
+<!-- Scroll Reveal -->
+
+<script src="JS/scrollreveal.min.js"></script>
+<!-- Swiper JS  -->
+<script src="JS/swiper-bundle.min.js">
+
+</script>
+
+<!-- Main JS -->
+<script src="JS/main.js">
+
+</script>
+
+</html>
